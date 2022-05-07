@@ -44,17 +44,16 @@
  		</fieldset>
 
 		<fieldset><legend>How did you hear this workshop:</legend>
-		<input type="checkbox" name="days[]" id="social media" value="social media"><label for="social media">social media</label><br>
-		<input type="checkbox" name="days[]" id="news" value="news"><label for="news">news</label><br>
-		<input type="checkbox" name="days[]" id="website" value="website"><label for="website">our website</label><br>
-		<input type="checkbox" name="days[]" id="friend" value="friend"><label for="friend">friend or other person's recommendation</label><br>
-		<input type="checkbox" name="days[]" id="other" value="other"><label for="other">other</label><br>
-		
+		<input type="checkbox" name="source[]" id="social media" value="social media"><label for="social media">social media</label><br>
+		<input type="checkbox" name="source[]" id="news" value="news"><label for="news">news</label><br>
+		<input type="checkbox" name="source[]" id="website" value="website"><label for="website">our website</label><br>
+		<input type="checkbox" name="source[]" id="friend" value="friend"><label for="friend">friend or other person's recommendation</label><br>
+		<input type="checkbox" name="source[]" id="other" value="other"><label for="other">other</label><br>
 		</fieldset>
 		
 		<fieldset><legend>Do you want to receive information on future events:</legend>
-		<input type="radio" name="food" id="yes" value="yes"><label for="yes">yes</label><br>
-		<input type="radio" name="food" id="no" value="no"><label for="vegan">no</label><br>
+		<input type="radio" name="infosignup" id="yes" value="yes"><label for="yes">yes</label><br>
+		<input type="radio" name="infosignup" id="no" value="no"><label for="vegan">no</label><br>
 		</fieldset>
 
 		<input name="submit" type="submit" value="Sign up">
