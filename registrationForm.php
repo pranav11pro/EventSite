@@ -16,20 +16,20 @@
 		</style>
 	</head>
     <nav>
-        <ul>
-            <li><a href="index500.html">Home</a></li>
-            <li><a href="policies.html">Policies</a></li>
-            <li><a href="schedule.html">Schedule</a></li>
-            <li><a href="registrationForm.html">Register</a></li>
-            <li><a href="contactusForm.html">Contact Us</a></li>
-        </ul>
-    </nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="policies.html">Policies</a></li>
+				<li><a href="schedule.html">Schedule</a></li>
+				<li><a href="registrationForm.php">Register</a></li>
+				<li><a href="contactusForm.php">Contact Us</a></li>
+			</ul>
+		</nav>
 	<body>
 
  	<h1>Sign up for the Canva workshop to start your design!</h1>
  	<p>We'll use your responses as we plan; we want the workshop to be enjoyable as well as useful!</p>
  	
- 	<form action="signPeopleUp.php" method="POST" enctype="multipart/form-data">
+ 	<form action="registrationFormHandler.php" method="POST" enctype="multipart/form-data">
 
  		<fieldset><legend>How do we address you respectfully?</legend>
  	

@@ -15,6 +15,15 @@
             }
             </style>
     </head>
+    <nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="policies.html">Policies</a></li>
+				<li><a href="schedule.html">Schedule</a></li>
+				<li><a href="registrationForm.php">Register</a></li>
+				<li><a href="contactusForm.php">Contact Us</a></li>
+			</ul>
+		</nav>
     <body>
     <?php
         $firstname = 'Pranav';
