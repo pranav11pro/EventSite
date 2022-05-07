@@ -6,7 +6,7 @@
 
 <html>
 	<head>
-		<title>Sign Up for iSchool Retreat</title>
+		<title>Sign Up for Canva workshop</title>
 		<style type="text/css">
 			body { font-family: Candara, Helvetica, "Helvetica Neue," sans-serif }
 			label, input[type='text'], input[type='email'] { display: inline-block; margin: .5em 0; }
@@ -17,8 +17,8 @@
 	</head>
 	<body>
 
- 	<h1>Sign up for the iSchool retreat!</h1>
- 	<p>We'll use your responses as we plan; we want the day to be enjoyable as well as useful!</p>
+ 	<h1>Sign up for the Canva workshop to start your design!</h1>
+ 	<p>We'll use your responses as we plan; we want the workshop to be enjoyable as well as useful!</p>
  	
  	<form action="signPeopleUp.php" method="POST" enctype="multipart/form-data">
 
@@ -34,24 +34,18 @@
  		<label for="phone">Preferred phone number: </label><input type="text" name="phone">
  		</fieldset>
 
-		<fieldset><legend>Days you would be able to come to the retreat:</legend>
-		<input type="checkbox" name="days[]" id="sunday" value="sunday"><label for="sunday">Sunday</label><br>
-		<input type="checkbox" name="days[]" id="monday" value="monday"><label for="monday">Monday</label><br>
-		<input type="checkbox" name="days[]" id="tuesday" value="tuesday"><label for="tuesday">Tuesday</label><br>
-		<input type="checkbox" name="days[]" id="wednesday" value="wednesday"><label for="wednesday">Wednesday</label><br>
-		<input type="checkbox" name="days[]" id="thursday" value="thursday"><label for="thursday">Thursday</label><br>
-		<input type="checkbox" name="days[]" id="friday" value="friday"><label for="friday">Friday</label><br>
-		<input type="checkbox" name="days[]" id="saturday" value="saturday"><label for="saturday">Saturday</label>
+		<fieldset><legend>How did you hear this workshop:</legend>
+		<input type="checkbox" name="days[]" id="social media" value="social media"><label for="social media">social media</label><br>
+		<input type="checkbox" name="days[]" id="news" value="news"><label for="news">news</label><br>
+		<input type="checkbox" name="days[]" id="website" value="website"><label for="website">our website</label><br>
+		<input type="checkbox" name="days[]" id="friend" value="friend"><label for="friend">friend or other person's recommendation</label><br>
+		<input type="checkbox" name="days[]" id="other" value="other"><label for="other">other</label><br>
+		
 		</fieldset>
 		
-		<fieldset><legend>Dietary choices (lunch will be provided):</legend>
-		<input type="radio" name="food" id="vegetarian" value="Vegetarian"><label for="vegetarian">Vegetarian</label><br>
-		<input type="radio" name="food" id="vegan" value="Vegan"><label for="vegan">Vegan</label><br>
-		<input type="radio" name="food" id="glutenfree" value="Gluten-free"><label for="glutenfree">Gluten-free</label><br>
-		<input type="radio" name="food" id="kosher" value="Kosher"><label for="kosher">Kosher</label><br>
-		<input type="radio" name="food" id="halal" value="Halal"><label for="halal">Halal</label><br>
-		<input type="radio" name="food" id="none" value="None/other"><label for="none">None of these, or a different choice (specify below)</label><br>
-		<label for="otherfood">Other choice not listed above: </label><input type="text" name="otherfood">
+		<fieldset><legend>Do you want to receive information on future events:</legend>
+		<input type="radio" name="food" id="yes" value="yes"><label for="yes">yes</label><br>
+		<input type="radio" name="food" id="no" value="no"><label for="vegan">no</label><br>
 		</fieldset>
 
 		<input name="submit" type="submit" value="Sign up">
