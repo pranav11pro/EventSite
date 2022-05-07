@@ -17,6 +17,15 @@
 			fieldset { max-width: 50% }
 		</style>
 	</head>
+    <nav>
+        <ul>
+            <li><a href="index500.html">Home</a></li>
+            <li><a href="policies.html">Policies</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="registrationForm.html">Register</a></li>
+            <li><a href="contactusForm.html">Contact Us</a></li>
+        </ul>
+    </nav>
 	<body>
 
  	<h1>Leave your message here</h1>
