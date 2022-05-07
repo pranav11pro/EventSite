@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Sign Up for iSchool Retreat</title>
+        <title>Contact the Canva Workshop</title>
         <style>
             h1 {
                 color: blue;
